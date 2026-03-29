@@ -14,7 +14,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/yamaru-eu/hardware-probe.git",
-        "sha": "50659923b244db968530292ef6b4db4445d53570"
+        "sha": "3cbc208609f270c67e0633ce2fea1c54cfaef389"
       },
       "homepage": "https://www.yamaru.eu"
     }

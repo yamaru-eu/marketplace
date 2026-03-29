@@ -1,0 +1,24 @@
+{
+  "name": "yamaru-official",
+  "owner": {
+    "name": "Yamaru Project",
+    "email": "contact@yamaru.eu"
+  },
+  "metadata": {
+    "description": "Yamaru official ecosystem for hardware diagnostics and AI local optimization.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hardware-probe",
+      "displayName": "Yamaru Hardware Probe",
+      "description": "The official MCP server to scan your PC for AI local compatibility.",
+      "version": "1.0.3",
+      "source": {
+        "type": "git",
+        "repo": "yamaru-eu/hardware-probe",
+        "ref": "main"
+      }
+    }
+  ]
+}

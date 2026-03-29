@@ -10,14 +10,13 @@
   },
   "plugins": [
     {
-      "name": "hardware-probe",
+      "name": "@yamaru-eu/hardware-probe",
       "displayName": "Yamaru Hardware Probe",
       "description": "The official MCP server to scan your PC for AI local compatibility.",
       "version": "1.0.3",
       "source": {
         "type": "git",
-        "repo": "yamaru-eu/hardware-probe",
-        "ref": "main"
+        "repo": "yamaru-eu/hardware-probe"
       }
     }
   ]

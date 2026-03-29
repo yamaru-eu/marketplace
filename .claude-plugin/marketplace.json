@@ -1,23 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "yamaru-official",
+  "description": "Yamaru official ecosystem for hardware diagnostics and AI local optimization.",
   "owner": {
     "name": "Yamaru Project",
     "email": "contact@yamaru.eu"
   },
-  "metadata": {
-    "description": "Yamaru official ecosystem for hardware diagnostics and AI local optimization.",
-    "version": "1.0.0"
-  },
   "plugins": [
     {
-      "name": "@yamaru-eu/hardware-probe",
-      "displayName": "Yamaru Hardware Probe",
+      "name": "hardware-probe",
       "description": "The official MCP server to scan your PC for AI local compatibility.",
-      "version": "1.0.3",
+      "category": "development",
       "source": {
-        "type": "git",
-        "repo": "yamaru-eu/hardware-probe"
-      }
+        "source": "url",
+        "url": "https://github.com/yamaru-eu/hardware-probe.git",
+        "sha": "50659923b244db968530292ef6b4db4445d53570"
+      },
+      "homepage": "https://www.yamaru.eu"
     }
   ]
 }
